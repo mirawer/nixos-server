@@ -13,7 +13,7 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./vm-boot.nix
+    ./boot.nix
   ];
 
   networking.hostName = "server";
