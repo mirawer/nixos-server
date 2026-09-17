@@ -14,6 +14,7 @@
   imports = [
     ./hardware-configuration.nix
     ./boot.nix
+    ./wireguard.nix
   ];
 
   networking.hostName = "server";
@@ -33,6 +34,7 @@
   ];
 
   system.stateVersion = "26.05";
+  hardware.enableRedistributableFirmware = true;
 
   #  --  --  Security  --  --
 
