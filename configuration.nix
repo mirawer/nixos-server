@@ -15,6 +15,7 @@
     ./hardware-configuration.nix
     ./boot.nix
     ./wireguard.nix
+    ./tor.nix
   ];
 
   networking.hostName = "server";
