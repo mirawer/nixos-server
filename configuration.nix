@@ -32,6 +32,7 @@
     wget
     git
     ghostty.terminfo
+    
   ];
 
   system.stateVersion = "26.05";
@@ -50,6 +51,7 @@
     hashedPasswordFile = "/var/lib/secrets/echo.pass";
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJmN5fnFpjehHkQ2+iJhZvZy3gajCvex8iuFLdNP4ZX7 echo@server"
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP0xBC0D0BHGMuORHnZ9uZ606lW2hREyB6vr7yUQdgfN pc-windows"
     ];
   };
 
